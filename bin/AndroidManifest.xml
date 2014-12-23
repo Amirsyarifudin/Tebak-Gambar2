@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugas.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlaskakiActivity"
+            android:label="@string/title_activity_alaskaki" >
+        </activity>
+        <activity
+            android:name=".Alaskaki"
+            android:label="@string/title_activity_alaskaki" >
+        </activity>
+        <activity
+            android:name=".Tebak"
+            android:label="@string/title_activity_tebak" >
+        </activity>
+        <activity
+            android:name=".Tebakgambar"
+            android:label="@string/title_activity_tebakgambar" >
+        </activity>
+        <activity
+            android:name=".KakiActivity"
+            android:label="@string/title_activity_kaki" >
+        </activity>
+        <activity
+            android:name=".LampionActivity"
+            android:label="@string/title_activity_lampion" >
+        </activity>
+        <activity
+            android:name=".JamukuatActivity"
+            android:label="@string/title_activity_jamukuat" >
+        </activity>
+        <activity
+            android:name=".BanyakibadahActivity"
+            android:label="@string/title_activity_banyakibadah" >
+        </activity>
+        <activity
+            android:name=".BosanmenganggurActivity"
+            android:label="@string/title_activity_bosanmenganggur" >
+        </activity>
+        <activity
+            android:name=".PoconggalauActivity"
+            android:label="@string/title_activity_poconggalau" >
+        </activity>
+        <activity
+            android:name=".MatirasaActivity"
+            android:label="@string/title_activity_matirasa" >
+        </activity>
+        <activity
+            android:name=".BibitguramiActivity"
+            android:label="@string/title_activity_bibitgurami" >
+        </activity>
+        <activity
+            android:name=".DrakulaActivity"
+            android:label="@string/title_activity_drakula" >
+        </activity>
+        <activity
+            android:name=".NasibburukActivity"
+            android:label="@string/title_activity_nasibburuk" >
+        </activity>
+        <activity
+            android:name=".PupukkandangActivity"
+            android:label="@string/title_activity_pupukkandang" >
+        </activity>
+        <activity
+            android:name=".BerhasilActivity"
+            android:label="@string/title_activity_berhasil" >
+        </activity>
+    </application>
+
+</manifest>
